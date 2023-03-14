@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-4290265218364722267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa205c9772fbca4f8f40124e806a948, type: 3}
+  m_Name: RootNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 245c9667234d8c1408c51916f645c703
+  position: {x: -34.3501, y: -117.20006}
+  child: {fileID: 4992399700780894159}
+  texture: {fileID: 2800000, guid: ae8a5bdf1b3a4f646b47c8aeebd9d598, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fbf33887350b874687fa987c1f59255, type: 3}
+  m_Name: New Texture Blueprint
+  m_EditorClassIdentifier: 
+  rootNode: {fileID: -4290265218364722267}
+  blueprintState: 0
+  nodes:
+  - {fileID: 4992399700780894159}
+  - {fileID: 5017799502289998447}
+  - {fileID: -4290265218364722267}
+  - {fileID: 4942952491806287709}
+  - {fileID: 1676995428477693203}
+--- !u!114 &1676995428477693203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afa810cac0baef47b053563c55b8647, type: 3}
+  m_Name: BrightnessNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: cb1731dea0d484471a2b9be54bcb67c2
+  position: {x: -24.000011, y: 342.30005}
+  child: {fileID: 0}
+--- !u!114 &4942952491806287709
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6c937c68bf6ab1468a88cce251deb54, type: 3}
+  m_Name: GrayscaleNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: fb29884b9301b43f2aae4ab71472dddc
+  position: {x: 58.40001, y: 103.65001}
+  child: {fileID: 5017799502289998447}
+--- !u!114 &4992399700780894159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 912720cc9e119914da112aeea715d499, type: 3}
+  m_Name: ColorNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 52fcdb84974cf964485a72ebb75a6222
+  position: {x: 142.35002, y: -24.35006}
+  child: {fileID: 4942952491806287709}
+--- !u!114 &5017799502289998447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afa810cac0baef47b053563c55b8647, type: 3}
+  m_Name: BrightnessNode
+  m_EditorClassIdentifier: 
+  state: 0
+  started: 0
+  guid: 1664e5e119688304bbe3c752a5c67c72
+  position: {x: 17.000008, y: 223.45003}
+  child: {fileID: 1676995428477693203}

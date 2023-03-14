@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4e8364516807ca4bbbe282c90d04fad, type: 3}
+  m_Name: Game Settings
+  m_EditorClassIdentifier: 
+  loopStartLevel: 1
+  chapterMode: 1
+  singleSceneMode: 0
+  setCurrentLevel: 0
+  currentLevel: 0
+  MobileInputType: 0
+  animatedJoystick: 0
+  joystickSizeAnimation_Ease: 0
+  showJoystickGraphics: 0
+  movableJoystick: 0
+  reversedInputData: 0
+  GameStarterType: 0
+  InputResetDuration: 0
+  fadeSoundsWhenLevelsChanging: 0
+  gameStartEvent: {fileID: 11400000, guid: 560a0cc7823c08542aefc247c78a6cdf, type: 2}
+  gameCompletedEvent: {fileID: 11400000, guid: d7c8c8f78e2dd5548aa4401c507270e3, type: 2}
+  gameOverEvent: {fileID: 11400000, guid: fa2e4a21ca6d60f47996dcd87de6fc33, type: 2}
+  sdkEnabled: 1
+  Coins: 0
+  coinSprite: {fileID: 0}
+  Timer: 0
+  timerSprite: {fileID: 0}
+  Audio: 1
+  SoundFx:
+  - tag: Kiss
+    clip: {fileID: 8300000, guid: e0c3c31f30295d1408e5718d5560aa20, type: 3}
+    volume: 0.82119024
+  Music: 0
+  MusicFx: []

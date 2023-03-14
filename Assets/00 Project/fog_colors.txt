@@ -1,0 +1,15 @@
+blue theme => B1DCF5
+gray theme => C3D0D4
+green_theme => BADBB5
+ping_theme => E5BFE5
+turquoise_theme => B9D2D9
+
+START - END => 100
+
+----------------------
+
+AVM
+blue theme => 7CF5FA
+
+START: 95
+END: 335

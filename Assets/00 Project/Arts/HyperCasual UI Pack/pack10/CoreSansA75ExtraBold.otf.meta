@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ee7bc40912751d74286de84f752e2eb5
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Core Sans A 75 ExtraBold
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 278f86420e33e2140a1845ad0d2cfd47, type: 3}
+  - {fileID: 12800000, guid: 9d8ed787debfd49f79bc018bad0c5b11, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="ML_TextureEditor.uss" />
+    <MadLab.Editor.ML_SplitView fixed-pane-initial-dimension="250" name="ML_SplitView" orientation="Horizontal" style="flex-direction: column; align-items: center; justify-content: space-between; -unity-text-align: upper-left;">
+        <ui:VisualElement name="left-panel">
+            <ui:Label text="Inspector View" display-tooltip-when-elided="true" style="background-color: rgba(0, 0, 0, 0.59); font-size: 12px; -unity-text-align: middle-center; padding-bottom: 2px; padding-top: 2px; height: 21px;" />
+            <MadLab.Editor.ML_InspectorView style="flex-grow: 1; background-color: rgb(34, 35, 38); flex-direction: column;">
+                <ui:VisualElement style="height: auto; flex-grow: 1;" />
+                <uie:ProgressBar title="saving..." low-value="0" tabindex="0" style="justify-content: flex-start; flex-direction: column; display: none; visibility: visible;" />
+            </MadLab.Editor.ML_InspectorView>
+        </ui:VisualElement>
+        <ui:VisualElement name="right-panel">
+            <MadLab.Editor.ML_GraphView focusable="true" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); -unity-background-scale-mode: stretch-to-fill; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; cursor: ınitial; -unity-font-style: normal; font-size: 15px; -unity-text-align: upper-left; flex-direction: column; flex-shrink: 1; height: 740px;">
+                <ui:VisualElement style="height: 21px; align-items: center; justify-content: flex-start; flex-direction: row; background-color: rgba(0, 0, 0, 0.25);">
+                    <ui:Button display-tooltip-when-elided="true" focusable="false" name="SaveButton" picking-mode="Ignore" style="width: 50px; padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; -unity-slice-left: 0; -unity-slice-top: 0; -unity-slice-right: 0; -unity-slice-bottom: 0; -unity-background-scale-mode: stretch-to-fill; background-color: rgba(88, 88, 88, 0); border-left-color: rgba(255, 255, 255, 0); border-right-color: rgba(255, 255, 255, 0); border-top-color: rgba(255, 255, 255, 0); border-bottom-color: rgba(255, 255, 255, 0);" />
+                    <ui:TextField picking-mode="Ignore" text="New Texture" name="TextureNameField" readonly="false" multiline="false" class="text-field" style="flex-grow: 1; width: auto; min-width: 100px;" />
+                </ui:VisualElement>
+                <ui:Label text="Texture Name" display-tooltip-when-elided="true" name="TextureNameTitle" style="background-color: rgba(0, 0, 0, 0.25); justify-content: center; -unity-text-align: middle-center; -unity-font-style: normal; -unity-font: url(&apos;/Assets/NiceVibrations/Demos/_Common/Fonts/RobotoMono-Medium.ttf&apos;); height: auto; opacity: 1; font-size: 15px; padding-top: 2px; padding-bottom: 2px; display: none;" />
+            </MadLab.Editor.ML_GraphView>
+        </ui:VisualElement>
+    </MadLab.Editor.ML_SplitView>
+</ui:UXML>

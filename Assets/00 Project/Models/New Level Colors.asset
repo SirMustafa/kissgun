@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441e752b17b5b6c459d78ccef3dbd133, type: 3}
+  m_Name: New Level Colors
+  m_EditorClassIdentifier: 
+  light: {r: 0, g: 0, b: 0, a: 0}
+  dark: {r: 0, g: 0, b: 0, a: 0}
+  light_Obstacle: {r: 0, g: 0, b: 0, a: 0}
+  dark_Obstacle: {r: 0, g: 0, b: 0, a: 0}
+  lightMat: {fileID: 0}
+  darkMat: {fileID: 0}
+  light_ObstacleMat: {fileID: 0}
+  dark_ObstacleMat: {fileID: 0}
+  skyMaterial: {fileID: 0}
+  TargetSky: {fileID: 0}
